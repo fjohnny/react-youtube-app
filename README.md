@@ -1,4 +1,4 @@
-# ReduxSimpleStarter
+# Intro to React - Youtube Search App
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
