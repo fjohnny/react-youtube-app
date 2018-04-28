@@ -13,9 +13,10 @@ class SearchBar extends Component {
 
     render() {
         return (
-        <div className="search-bar">
+         
+        <div className="search-bar col-md-8 form-group">
           <input   //this is called "controlled" input - the state is setting the value of the input
-            style={{"width": "65%"}}
+            className="form-control"
             value={this.state.term}
             onChange={event => this.onInputChange(event.target.value)} />
         </div>  
